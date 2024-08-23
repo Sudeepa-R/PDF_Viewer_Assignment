@@ -1,0 +1,101 @@
+.GlFormApp {
+    /* padding: 5px; */
+    font-family: Arial, sans-serif;
+  }
+  
+  .GlFormContainer {
+    margin: auto;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .GlFormTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .GlFormTh, .GlFormTd {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  .GlFormTd
+  {
+    background-color: #eaf4fc;
+  }
+  .GlFormTh {
+    background-color: #f2f2f2;
+  }
+  
+  .GlFormCheckbox {
+    transform: scale(1.5);
+  }
+  
+  .GlFormSelect {
+    padding: 5px;
+    width: 100%;
+  }
+  
+  .GlFormInput {
+    padding: 5px;
+    width: 100%;
+  }
+  
+  .GlFormDeleteButton {
+    background-color: transparent;
+    border: none;
+    color: #461B7E;
+    cursor: pointer;
+    font-size: 18px;
+    
+
+
+  }
+  
+  .GlFormPaginationControls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .GlFormPageButton {
+    background-color: #461B7E;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .GlFormPageButton:disabled {
+    background-color: #461B7E;
+  }
+  
+  .GlFormPageNumber {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .GlFormActionButtons {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  .GlFormCalculateButton, .GlFormAddButton {
+    background-color: #6f42c1;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  
+  .GlFormAddButton {
+    background-color: #28a745;
+  }
+  
